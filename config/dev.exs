@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :chirp, Chirp.Repo,
-  username: "postgres",
-  password: "initial1234",
+  username: "dev",
+  password: "dev",
   hostname: "localhost",
-  database: "postgres",
+  database: "./database/sqlite_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

@@ -1,3 +1,6 @@
+# The directory for the dev sqlite database
+/database/
+
 # The directory Mix will write compiled artifacts to.
 /_build/
 
