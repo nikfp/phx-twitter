@@ -12,22 +12,19 @@ defmodule ChirpWeb.PostLive.PostComponent do
           <b>
             <%= @post.username %>
           </b>
-          <br/>
+          <br />
           <%= @post.body %>
         </div>
       </div>
 
-    <div class="row">
-      <div class="column">
+      <div class="row">
+        <div class="column">
           <i class="far fa-hart">likes: </i> <%= @post.likes_count %>
         </div>
-      <div class="column">
-
+        <div class="column">
           <i class="far fa-hart">reposts: </i> <%= @post.reposts_count %>
         </div>
-      <div class="column">
-
-        </div>
+        <div class="column"></div>
       </div>
     </div>
     """
