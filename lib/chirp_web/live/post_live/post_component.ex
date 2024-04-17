@@ -3,7 +3,7 @@ defmodule ChirpWeb.PostLive.PostComponent do
 
   def render(assigns) do
     ~H"""
-    <div id="post-{@id}" class="post">
+    <div id={"post-#{@id}"} class="post">
       <div class="row">
         <div class="column column-10">
           <div class="post-avatar"></div>
